@@ -1,7 +1,9 @@
 # Rast Mobile Kanban Task Proje Çalışması
 
 ## Proje Nasıl Çalışır ? 
-Repositories'den forkladıktan sonra vscode terminal satırına `git clone https://github.com/'Buraya kendi kullanıcı adınız'/kanbanboard.git`  projeyi klonlayabilirsiniz.<br/>
+**Repositories'den forkladıktan sonra vscode terminal satırına `git clone https://github.com/'Buraya kendi kullanıcı adınız'/kanbanboard.git`  projeyi klonlayabilirsiniz.<br/>**
+**Projeyi klonladıktan sonra terminalde "cd kanbanboard" projenin dizinine gidiyoruz**
+**Proje dizinine geldikten sonra npm install ile paketleri yüklüyoruz**
 Daha sonra yarn start veya npm start ile projeyi çalıştırın.
 
 
