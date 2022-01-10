@@ -21,7 +21,7 @@ Yukarıdaki endpointten aldığınız username ve emaillerle giriş yaptıktan s
 
 
 ## Kanbanboard'da neler var? ##
-Kanbanboard'da 4 adet Task bulunmakta./ (Backlog, Todo, Inprogress ve Done)
-Her bir Task'a ayrı ayrı card eklenebilmektedir.
-Her bir karta ayrı ayrı renk verilebilmektedir.
-Eklenilen kartlar user'ın localStorage'inde tutulmaktadır.
+Kanbanboard'da 4 adet Task bulunmakta./ (Backlog, Todo, Inprogress ve Done)<br/>
+Her bir Task'a ayrı ayrı card eklenebilmektedir.<br/>
+Her bir karta ayrı ayrı renk verilebilmektedir.<br/>
+Eklenilen kartlar user'ın localStorage'inde tutulmaktadır.<br/>
