@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// Global Import
+import { DragDropContext } from "react-beautiful-dnd";
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Local Import
+import "./dist/App.scss";
+import Tasks from "./components/Tasks";
+import Login from "./components/Login";
+
+export default function App() {
+
+    const [login, setLogin] = useState(false)
+
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <DragDropContext  >
+                    <Routes>
+                        <Route path="/" element={<Login login={login} setLogin={setLogin} />} />
+                        {login && <Route path="/board/:name" element={<Tasks />} />}
+                    </Routes>
+                </DragDropContext>
+            </div>
+        </BrowserRouter>
+    );
 }
-
-export default App;

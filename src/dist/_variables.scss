@@ -1,0 +1,18 @@
+// Colors Variable
+$bgColor: #000;
+$grayColor: #262626;
+$pinkColor: #c340a1;
+$purpleColor: #6a6dcd;
+$redColor: #d93535;
+$blueColor: #307fe2;
+$greenColor: #00a88b;
+$boxShadow: 0px 4px 8px rgba(0, 0, 0, 0.12), 0px 16px 32px rgba(0, 0, 0, 0.08);
+
+// Flex Variable
+
+@mixin flexCenter($justifyContent, $alignItems, $direction) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $direction;
+}
