@@ -7,5 +7,7 @@ Daha sonra yarn start veya npm start ile projeyi çalıştırın.
 
 
 ## Proje tanıtım ?
-** Öncelikle proje 2 aşamadan oluşuyor. 1 aşama "Login" sayfayı, 2.aşama Kanbanboard sayfayı.
+** Öncelikle proje 2 aşamadan oluşuyor. **  
+1-) "Login" sayfası 
+2-) Kanbanboard sayfayı.
 
